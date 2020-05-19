@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
+import 'package:startupgenerator/animated_containers_demo.dart';
+import 'package:startupgenerator/execrice_widget.dart';
+import 'package:startupgenerator/implicit_animations.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(primaryColor: Colors.white),
-      home: RandomWords(),
+      home: AnimatedContainerDemo(),
     );
   }
 }
